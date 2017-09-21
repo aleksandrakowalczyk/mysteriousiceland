@@ -1,0 +1,327 @@
+/*Most of them photos used for Mysterious Iceland project were taken by Pierre Bouillot (Unsplash)*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  color: #fff;
+  font-size: 450%;
+}
+
+h2 {
+  color: #09078a;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 50px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 270%;
+  letter-spacing: 3px;
+  border: 2px solid #eef0fe;
+  padding: 35px;
+}
+
+h4 {
+  color: #09078a;
+  text-align: center;
+  font-size: 100%;
+  margin-top: 10%;
+}
+
+span {
+  color: #09078a;
+}
+
+header {
+  background-image: url("../img/background-iceland.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-heading {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: -60px;
+}
+
+.menu {
+  list-style-type: none;
+  color:#fff;
+  transform: translate(-50%; -50%);
+  text-align: center;
+  margin-top: -55px;
+}
+
+.menu li {
+  display: inline-block;
+  padding-right: 10%;
+  font-weight: bold;
+  font-size: 85%;
+}
+
+.menu li:hover {
+  color: #111577;
+  font-weight: bold;
+}
+
+.section-photos {
+  background-color: #eef0fe;
+}
+
+.first-photo {
+  margin-top: 150px;
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.last-photo {
+  margin-top: 150px;
+  width: 80%;
+  height: auto;
+  float: left
+}
+
+.middle-photo {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.second-middle-photo {
+  margin-top: 13px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.photo {
+  transition: transform 1.5s ease;
+}
+
+.photo:hover {
+  transform: scale(1.08);
+}
+
+/*SECTION STORY*/
+.section-story, footer {
+  background-image: url("../img/regal.png");
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.paragraph {
+  color: #111577;
+  line-height: 145%;
+  width: 80%;
+  margin: 100px auto;
+  word-spacing: 3px;
+}
+
+.space {
+  margin-bottom: 150px;
+}
+
+.line {
+  width: 90%;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #111577;
+}
+
+/*SECTION BLOG*/
+.section-blog {
+  background-image: url("../img/background-blog.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-heading a {
+  text-decoration: none;
+}
+
+/*SECTION CONTACT*/
+
+.section-contact {
+  background-color: #eef0fe;
+  width: 100%;
+  height: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  border: 0;
+  border: 1.5px dashed #111577;
+  padding: 10px;
+}
+
+input[type="submit"] {
+width: 50%;
+margin-left: 25%;
+outline: none;
+border: none;
+font-family: 'Amatic SC', cursive;;
+font-size: 120%;
+padding: 10px;
+color: #fff;
+border: 1.5px dashed #111577;
+border-radius: 2px;
+background-color: #111577;
+transition: all 0.5s ease;
+margin-bottom: 100px;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #111577;
+  border: 1.5px dashed #111577;
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+  resize: none;
+  border: 1.5px dashed #111577;
+  padding: 10px;
+}
+
+*:focus { outline: none}
+
+/*FOOTER*/
+
+.footer-p {
+  text-align: center;
+  font-size: 80%;
+  margin-top: 20%;
+  color: #111577;
+}
+
+.footer-second-column-p {
+    width: 85%;
+    margin: 0 auto;
+    line-height: 145%;
+    text-align: justify;
+    font-size: 70%;
+    color: #0f1268;
+    margin-top: 10%;
+}
+
+.copyrights-p {
+  text-align: center;
+  font-size: 80%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #111577;
+}
+
+.first-column .newsletter-input {
+  width: 70%;
+  height: 25px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+button {
+  margin-top: 20px;
+  width: 10%;
+  height: 25px;
+  background-color: #111577;
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.connect-social-icons {
+  font-size: 160%;
+  list-style: none;
+  text-align: center;
+}
+
+.connect-social-icons li {
+  display: inline-block;
+  padding: 2%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: -14%;
+}
+
+.footer-photo {
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: #111577;
+}
+
+i {
+  color: #0d1059;
+  transition: color 1s ease;
+}
+
+i:hover {
+  color: #7f8c8d;
+}
+
+/*.ion-social-facebook { color: #3b5998 }
+
+.ion-social-twitter { color: #00aced }
+
+.ion-social-youtube { color: #cd201f }
+
+.ion-social-instagram { color: #5851db}*/
+
+.ion-heart { color: #111577}
